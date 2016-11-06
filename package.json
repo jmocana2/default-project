@@ -1,0 +1,43 @@
+{
+  "name": "workout-graphic",
+  "version": "0.1.0",
+  "description": "Interactive graphics to generate specific training plans",
+  "main": "server.js",
+  "scripts": {
+    "build": "gulp",
+    "start": "concurrently \"node server.js\" \"gulp watch\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmocana2/workout-graphic.git"
+  },
+  "keywords": [
+    "graphic",
+    "workout",
+    "canvas"
+  ],
+  "author": "jmocana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jmocana2/workout-graphic/issues"
+  },
+  "homepage": "https://github.com/jmocana2/workout-graphic#readme",
+  "dependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "chart.js": "^2.3.0",
+    "express": "^4.14.0",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.17.5",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
+  }
+}
